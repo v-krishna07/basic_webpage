@@ -1,3 +1,3 @@
 export function ParticularChat(){
-  return (<div className="">hey</div>);
+  return (<div className="">yo</div>);
 }
