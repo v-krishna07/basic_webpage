@@ -12,9 +12,12 @@
   "app": {
     "windows": [
       {
-        "title": "basic_webpage",
-        "width": 800,
-        "height": 600
+        "title": "Basic WebApp",
+        "width": 1280,
+        "height": 720,
+        "decorations": false,
+        "maximized": true,
+        "transparent": true
       }
     ],
     "security": {
