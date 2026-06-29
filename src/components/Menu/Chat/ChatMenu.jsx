@@ -7,7 +7,7 @@ export function ChatMenu({selectedData,selectedChatID}) {
 
 
   return (
-    <div className="h-full overflow-y-auto px-4 [scrollbar-width:none] [background-color:#333333] [-ms-overflow-style:none]">
+    <div className="  px-4 [background-color:#333333] ">
       <div className="flex justify-between flex-shrink-0 w-full text-2xl pb-5 pt-2 font-bold text-green-600"><div><h1>WhatsUpp</h1></div>
       <div className="flex items-center flex-shrink-0"><img className="mr-3" src="https://unpkg.com/lucide-static/icons/message-square.svg"/><img className='mr-3'src="https://unpkg.com/lucide-static/icons/help-circle.svg"/></div></div>
       <div className="border-2 rounded-[35px] overflow-hidden mb-5 flex focus-within:border-2 focus-within:border-green-500">
