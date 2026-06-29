@@ -4,11 +4,11 @@ import { MediaMenu } from "./Menu/MediaMenu";
 import { StatusMenu } from "./Menu/StatusMenu";
 import { UserMenu } from "./Menu/UserMenu";
 import { JoiningChats } from "./Menu/Chat/Chats";
-import { SideBar } from "./SideBar";
+import { SideBar } from "./Menu/Sidebar/SideBar";
 import "../style/app.css"
 import { Route, Routes } from "react-router-dom";
 import { useState } from "react";
-import { sidebarIcons } from "./dataSidebar";
+import { sidebarIcons } from "./Menu/Sidebar/dataSidebar";
 export default function App(){
   const [selectedTheme,setSelectedTheme]=useState(sidebarIcons[0].id)
   return(<div className="grid grid-cols-[auto_320px_1fr] h-screen overflow-hidden">
