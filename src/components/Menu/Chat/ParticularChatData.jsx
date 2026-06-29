@@ -1,3 +1,4 @@
+import { ChatInbox } from "./ChatInbox";
 
 
 export function ParticularChatData({chat}){
@@ -15,7 +16,6 @@ export function ParticularChatData({chat}){
     );
   }
   return(<div>
-    <img src={`${chat.avatar}`}/>
-    <p>{`${chat.name},${chat.id}`}</p>
+    <ChatInbox avatar={chat.avatar} name={chat.name} id={chat.id}/>
   </div>)
 }
