@@ -8,7 +8,7 @@ export function Status() {
         <StatusMenu />
       </div>
       <div className="flex-1 min-w-0 h-full flex flex-col bg-[#222222]">
-        <StatusSide/>
+        <StatusSide />
       </div>
     </div>
   );
