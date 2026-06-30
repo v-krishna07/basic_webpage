@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { mockStatus, SeenStatus } from "./statusData";
 
 export function StatusMenu() {
@@ -14,6 +14,17 @@ export function StatusMenu() {
       setUnSeen(unSeen.filter((user) => user.id !== id));
     }
   };
+
+  useEffect(
+    ()=>{
+      let tout;
+      if(imageView!==null){
+        tout=setTimeout(()=>setImageview(null),15000)
+      }
+      return(()=>clearTimeout(tout))
+    },[imageView]
+  )
+
 
   return (
     <div className="h-full flex flex-col bg-zinc-900 text-white relative">

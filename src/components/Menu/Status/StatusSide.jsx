@@ -6,9 +6,9 @@ export function StatusSide() {
         src="https://unpkg.com/lucide-static/icons/message-square.svg"
         alt="No conversation selected"
       />
-      <h3 className="text-xl font-medium text-zinc-400">WhatsUpp Web</h3>
+      <h3 className="text-xl font-medium text-zinc-400">Share Status updates</h3>
       <p className="text-sm text-zinc-500 mt-1">
-        Select a chat from the sidebar to display messages.
+        Share photos,videos and text that disappear after 24 hours
       </p>
     </div>
     
