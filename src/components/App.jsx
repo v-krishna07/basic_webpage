@@ -11,7 +11,7 @@ import { useState } from "react";
 import { sidebarIcons } from "./Menu/Sidebar/dataSidebar";
 export default function App(){
   const [selectedTheme,setSelectedTheme]=useState(sidebarIcons[0].id)
-  return(<div className="grid grid-cols-[auto_320px_1fr] h-screen overflow-hidden">
+  return(<div className="grid grid-cols-[auto_1fr] h-screen overflow-hidden">
     <div><SideBar selected={setSelectedTheme}/></div>
     
     <div>{(selectedTheme===sidebarIcons[0].id)&&<JoiningChats/>}</div>

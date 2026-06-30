@@ -15,7 +15,7 @@ export function ParticularChatData({chat}){
       </div>
     );
   }
-  return(<div>
+  return(<div className="h-full w-full flex flex-col">
     <ChatInbox avatar={chat.avatar} name={chat.name} id={chat.id}/>
   </div>)
 }
